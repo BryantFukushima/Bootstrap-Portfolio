@@ -36,7 +36,7 @@ NAVBAR
 }
 
 .navbar-brand {
-	background: #49aaa5;
+	background: #4aaaa5;
 	color: #ffffff;
 	font-family: "Georgia", Times, Times New Roman, serif;
 }
@@ -67,7 +67,19 @@ CONTENT
 .aboutImg {
 	width: 300px;
 	float: left;
-	margin: 0 10px 10px 0;
+}
+
+#firstP {
+	text-indent: 0;
+}
+
+#firstP::first-letter {
+	font-size: 48px;
+	float: left;
+	margin-right: 5px;
+	color: #4aaaa5;
+	font-weight: 700;
+	line-height: 1;
 }
 
 html {
@@ -75,12 +87,50 @@ html {
 	position: relative;
 }
 
-.portImg {
-	height: 200px;
-	width: 300px;
-	background: grey;
+.portLinks {
+	min-height: 225px;
+	min-width: 300px;
 }
 
+.portLinks:hover {
+	text-decoration-color: #ffffff;
+}
+
+.portImg {
+	min-height: 225px;
+	min-width: 300px;
+	background-size: cover;
+}
+
+.portImg:hover {
+	box-shadow: 2px 2px 3px rgba(73,170,165,.5);
+	transform: translateY(2px);
+}
+
+.portImg h3 {
+	background: #4aaaa5;
+	color: #ffffff;
+}
+
+#logoDesign {
+	background-image: url('../images/ps.jpg');
+}
+
+#typography {
+	background-image: url('../images/typeo.jpg');
+}
+
+#photography {
+	background-image: url('../images/photog.jpg');
+}
+
+#webDesign {
+	background-image: url('../images/webd.jpg');
+}
+
+#webDev {
+	background-image: url('../images/code.jpg');
+}
 
 /*
 ========================
