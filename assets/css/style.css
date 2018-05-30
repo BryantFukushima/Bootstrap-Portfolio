@@ -54,7 +54,7 @@ NAVBAR
 	box-shadow: 0 2px 3px -3px #4aaaa5;
 }
 
-.nav-link .active{
+.nav-link.active{
 	color: #4aaaa5;
 }
 
