@@ -132,6 +132,12 @@ html {
 	background-image: url('../images/code.jpg');
 }
 
+.btn {
+	background-color: #4aaaa5;
+	border-color: #4aaaa5;
+	color: #ffffff;
+}
+
 /*
 ========================
 FOOTER
