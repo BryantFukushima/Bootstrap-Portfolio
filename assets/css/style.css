@@ -1,0 +1,91 @@
+/*
+========================
+All
+========================
+*/
+
+
+h2 {
+	color: #4aaaa5;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-weight: 600;
+}
+
+p {
+	margin: 0;
+	color: #777777!important;
+}
+
+body {
+	background: url('../images/headerimg.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+/*
+========================
+NAVBAR
+========================
+*/
+
+.navbar {
+	background: #ffffff;
+	width: 100%;
+	border-bottom: 1px solid #cccccc;
+	box-shadow: 0 .5px .5px #cccccc;
+
+}
+
+.navbar-brand {
+	background: #49aaa5;
+	color: #ffffff;
+	font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+.navbar-brand:hover {
+	color: #ffffff;
+}
+
+.nav-link {
+	color: #777777;
+}
+
+.nav-link:hover {
+	color: #4aaaa5;
+	box-shadow: 0 2px 3px -3px #4aaaa5;
+}
+
+/*
+========================
+ABOUT
+========================
+*/
+
+.about {
+	background: #ffffff;
+}
+
+.about img {
+	width: 300px;
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+.footer {
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+	height: 50px;
+	background: #666666;
+	text-align: center;
+	border-top: 5px solid #4aaaa5;
+}
+
+.container p {
+	color: #dddddd!important;
+	font-size: 12px;
+}
