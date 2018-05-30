@@ -56,15 +56,15 @@ NAVBAR
 
 /*
 ========================
-ABOUT
+CONTENT
 ========================
 */
 
-.about {
+.the-content {
 	background: #ffffff;
 }
 
-.about img {
+.aboutImg {
 	width: 300px;
 	float: left;
 	margin: 0 10px 10px 0;
@@ -74,6 +74,19 @@ html {
 	min-height: 100%;
 	position: relative;
 }
+
+.portImg {
+	height: 200px;
+	width: 300px;
+	background: grey;
+}
+
+
+/*
+========================
+FOOTER
+========================
+*/
 
 .footer {
 	bottom: 0;
