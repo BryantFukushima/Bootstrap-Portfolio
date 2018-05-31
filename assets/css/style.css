@@ -26,8 +26,12 @@ body {
 NAVBAR
 ========================
 */
+.navbar-toggler {
+	    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+}
 
-.navbar {
+.navbar{
 	background: #ffffff;
 	width: 100%;
 	border-bottom: 1px solid #cccccc;
@@ -35,13 +39,13 @@ NAVBAR
 
 }
 
-.navbar-brand {
+.navbar-light .navbar-brand {
 	background: #4aaaa5;
 	color: #ffffff;
 	font-family: "Georgia", Times, Times New Roman, serif;
 }
 
-.navbar-brand:hover {
+.navbar-light .navbar-brand:hover {
 	color: #ffffff;
 }
 
@@ -54,7 +58,7 @@ NAVBAR
 	box-shadow: 0 2px 3px -3px #4aaaa5;
 }
 
-.nav-link.active{
+.navbar-light .navbar-nav .nav-link.active{
 	color: #4aaaa5;
 }
 
