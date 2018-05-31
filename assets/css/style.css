@@ -58,6 +58,13 @@ NAVBAR
 	color: #4aaaa5;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000000; /* Changes regular toggle color */
+}
+.navbar-default .navbar-toggle .icon-bar:hover {
+  background-color: #fff; /* Changes toggle color on hover */
+}
+
 /*
 ========================
 CONTENT
